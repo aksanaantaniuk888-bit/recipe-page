@@ -142,10 +142,16 @@
     <div class="comment">
         <h2> Leave a Comment </h2>
         <form> <!--  form looks like comment box -->
-            <label for="comment"> Your Comment: </label>
-            <!-- label - create text  for the wording box(for comment box)-->
-            <textarea id="comment" name="comment" rows="4" cols="40"> </textarea>
-            <!-- textarea - box fot user text/ -->
+            <div>
+                <label for="visitor-name"> Your name </label>
+                <input type="text" id="visitor-name" name="visito-name" placeholder="Enter your name">
+            </div>
+
+            <div> <label for="comment"> Your Comment: </label>
+                <!-- label - create text  for the wording box(for comment box)-->
+                <textarea id="comment" name="comment" rows="4" cols="40"> </textarea>
+                <!-- textarea - box fot user text/ -->
+            </div>
             <button type="button"> Post Comment</button>
         </form>
     </div>
