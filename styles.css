@@ -22,3 +22,8 @@ h3 {
     width: 600px;
     max-width: 100%;
 }
+
+.left {
+    width: 600px;
+    float: left;
+}
