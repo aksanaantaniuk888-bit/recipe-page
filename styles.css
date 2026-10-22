@@ -17,3 +17,8 @@ h3 {
     font-family: "Lora", serif;
     color: #7B3F2A;
 }
+
+.description {
+    width: 600px;
+    max-width: 100%;
+}
