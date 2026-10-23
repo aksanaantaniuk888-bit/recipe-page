@@ -78,3 +78,42 @@ h3 {
     padding: 25px;
     border-radius: 15px;
 }
+
+/* Middle row */
+.middle {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Two equal columns */
+.middle .left,
+.middle .right {
+    width: 50%;
+    float: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Bottom row */
+.bottom {
+    display: flex;
+    gap: 20px;
+}
+
+/* Three equal columns */
+.bottom .comment,
+.bottom .similar-recipes,
+.bottom .video-tutorial {
+    width: 33.33%;
+    float: none;
+    clear: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Keep the video inside its card */
+.video-tutorial iframe {
+    width: 100%;
+    height: 220px;
+}
