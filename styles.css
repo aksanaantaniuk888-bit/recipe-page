@@ -24,14 +24,23 @@ h3 {
 }
 
 .left {
-    width: 600px;
+    width: 47%;
     float: left;
+    margin: 1%;
 }
 
 .right {
-    width: 600px;
+    width: 47%;
     float: left;
-    margin-left: 30px;
+    margin-left: 1%;
+}
+
+.comment,
+.similar-recipes,
+.video-tutorial {
+    width: 31%;
+    float: left;
+    margin: 1%;
 }
 
 .comment {
