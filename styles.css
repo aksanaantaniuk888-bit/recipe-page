@@ -3,7 +3,7 @@ p {
 }
 
 body {
-    background-color: #FFF8F0;
+    background-color: #DEAB7F;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -37,4 +37,18 @@ h3 {
 .comment {
     clear: both;
     padding-top: 20px;
+}
+
+.top,
+.recipe-info,
+.right,
+.left,
+.video-tutorial,
+.similar-recipes,
+.comment {
+    background-color: #FFF3E0;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
