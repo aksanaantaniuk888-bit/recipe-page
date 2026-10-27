@@ -88,9 +88,9 @@ h3 {
 
 .middle {
     display: flex;
-    /* Places the blocks next to each other. */
+    flex-wrap: wrap;
+    gap: 20px;
     margin-bottom: 20px;
-    /* Adds 20 pixels of space below the middle section. */
 }
 
 
@@ -162,4 +162,11 @@ h3 {
     right: -20px;
     bottom: -10px;
     width: 130px;
+}
+
+.top,
+.middle,
+.bottom {
+    margin-left: 20px;
+    margin-right: 20px;
 }
