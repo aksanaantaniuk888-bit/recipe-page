@@ -24,13 +24,13 @@ h3 {
 }
 
 .left {
-    width: 47%;
+
     float: left;
     margin: 1%;
 }
 
 .right {
-    width: 47%;
+
     float: left;
     margin-left: 1%;
 }
@@ -89,8 +89,6 @@ h3 {
 .middle {
     display: flex;
     /* Places the blocks next to each other. */
-    gap: 20px;
-    /* Adds 20 pixels of space between the blocks. */
     margin-bottom: 20px;
     /* Adds 20 pixels of space below the middle section. */
 }
@@ -98,7 +96,6 @@ h3 {
 
 .middle .left,
 .middle .right {
-    width: 50%;
     float: none;
     margin: 0;
     box-sizing: border-box;
