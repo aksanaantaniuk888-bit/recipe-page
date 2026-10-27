@@ -65,11 +65,17 @@ h3 {
 .top {
     background-image: url("images/Tuscan_Spaghetti png.png");
     background-size: cover;
+    /* Makes the image fill the whole box. */
     background-position: center;
+    /* Places the image in the center. */
     background-repeat: no-repeat;
+    /* Stops the image from repeating. */
     min-height: 420px;
+    /* Sets the minimum height to 420 pixels. */
     padding: 30px;
+    /* Adds 30 pixels of space inside the box. */
     border-radius: 15px;
+    /* Makes the corners round. */
 }
 
 .top-content {
@@ -79,14 +85,17 @@ h3 {
     border-radius: 15px;
 }
 
-/* Middle row */
+
 .middle {
     display: flex;
+    /* Places the blocks next to each other. */
     gap: 20px;
+    /* Adds 20 pixels of space between the blocks. */
     margin-bottom: 20px;
+    /* Adds 20 pixels of space below the middle section. */
 }
 
-/* Two equal columns */
+
 .middle .left,
 .middle .right {
     width: 50%;
@@ -95,13 +104,13 @@ h3 {
     box-sizing: border-box;
 }
 
-/* Bottom row */
+
 .bottom {
     display: flex;
     gap: 20px;
 }
 
-/* Three equal columns */
+
 .bottom .comment,
 .bottom .similar-recipes,
 .bottom .video-tutorial {
@@ -127,18 +136,25 @@ h3 {
 .ingredients,
 .comment {
     position: relative;
+    /* Makes these boxes the reference for positioned images. */
     overflow: visible;
+    /* Allows images to show outside the boxes. */
 }
 
 .leaf-decor {
     position: absolute;
+    /* Allows the image to be placed in a specific position. */
     top: 10px;
+    /* Places the image 10 pixels from the top. */
     right: 10px;
+    /* Places the image 10 pixels from the right. */
     width: 70px;
+    /* Sets the image width to 70 pixels. */
 }
 
 .basil-decor {
     position: absolute;
+    /* Allows the image to be placed in a specific position. */
     right: -10px;
     bottom: -10px;
     width: 110px;
