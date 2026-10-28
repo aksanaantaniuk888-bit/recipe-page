@@ -80,9 +80,11 @@ h3 {
 
 .top-content {
     background-color: #FFF3E0;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding: 25px;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
 
