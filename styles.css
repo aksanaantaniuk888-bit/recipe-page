@@ -113,7 +113,9 @@ h3 {
 .bottom .comment,
 .bottom .similar-recipes,
 .bottom .video-tutorial {
-    width: 33.33%;
+    width: auto;
+    flex: 1;
+    min-width: 0;
     float: none;
     clear: none;
     margin: 0;
@@ -188,4 +190,17 @@ h3 {
 
 .recipe-navbar .navbar-brand {
     font-family: "Lora", serif;
+}
+
+@media (max-width: 767px) {
+    .bottom {
+        flex-direction: column;
+    }
+
+    .bottom .comment,
+    .bottom .similar-recipes,
+    .bottom .video-tutorial {
+        width: 100%;
+        flex: none;
+    }
 }
