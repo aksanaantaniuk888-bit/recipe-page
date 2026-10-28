@@ -172,3 +172,20 @@ h3 {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.recipe-navbar {
+    background-color: #FFF3E0;
+    border-radius: 15px;
+    padding: 12px 20px;
+    max-width: 1320px;
+    margin: 12px auto 20px;
+}
+
+.recipe-navbar .navbar-brand,
+.recipe-navbar .nav-link {
+    color: #7B3F2A;
+}
+
+.recipe-navbar .navbar-brand {
+    font-family: "Lora", serif;
+}
