@@ -204,3 +204,10 @@ h3 {
         flex: none;
     }
 }
+
+.comment input,
+.comment textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
