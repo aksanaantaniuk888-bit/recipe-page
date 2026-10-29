@@ -238,3 +238,41 @@ h3 {
     max-width: 100%;
     box-sizing: border-box;
 }
+
+.ingredients ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredient-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7b4a35;
+    border-radius: 50%;
+    background-color: #ead5b7;
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ingredient-checkbox:checked {
+    background-color: #a4b88a;
+}
+
+.ingredient-checkbox:hover {
+    /* hover - change the style when the mouse pointer is over an element  */
+    background-color: #a4b88a;
+}
+
+.ingredient-checkbox:checked {
+    background-color: transparent;
+    background-image: url("images/basil_leaf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+}
