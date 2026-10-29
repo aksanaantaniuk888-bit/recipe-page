@@ -227,8 +227,14 @@ h3 {
     margin-right: 10px;
     vertical-align: middle;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .ingredient-checkbox:checked {
+    background-color: #a4b88a;
+}
+
+.ingredient-checkbox:hover {
+    /* hover - change the style when the mouse pointer is over an element  */
     background-color: #a4b88a;
 }
