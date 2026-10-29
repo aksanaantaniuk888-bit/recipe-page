@@ -211,3 +211,24 @@ h3 {
     max-width: 100%;
     box-sizing: border-box;
 }
+
+.ingredients ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredient-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7b4a35;
+    border-radius: 50%;
+    background-color: #ead5b7;
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.ingredient-checkbox:checked {
+    background-color: #a4b88a;
+}

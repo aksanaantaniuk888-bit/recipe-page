@@ -9,11 +9,10 @@ basil.addEventListener("animationend", () => { // "animatonend" - what we want h
 });
 
 const ingredients = document.getElementById("ingredients"); // find whole box ingredients
-const items = ingredients.getElementByTagName("li"); // find all element inside <li>
+const items = ingredients.getElementsByTagName("li"); // find all element inside <li>
 for (const ingredient of items) {  // go through all ingredient in a list 
     const checkbox = document.createElement("input"); // create a element (checkbox)for input
     checkbox.type = "checkbox"; // type of element "checkbox"
     checkbox.classList.add("ingredient-checkbox"); // add class from css "ingredient-checkbox"
     ingredient.prepend(checkbox); //prepend - add elemet checkbox in each ingredient from items <li>
-    console.log(ingredient.textContent); // log .textContent
 }
