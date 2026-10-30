@@ -105,7 +105,9 @@ h3 {
 
 
 .bottom {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* create 2 identical column */
     gap: 20px;
 }
 
@@ -192,9 +194,27 @@ h3 {
     font-family: "Lora", serif;
 }
 
+.cat-area {
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    padding-top: 40px;
+}
+
+.cat-area .cat-decor {
+    position: static;
+    width: 240px;
+    max-width: 80%;
+    height: auto;
+}
+
 @media (max-width: 767px) {
     .bottom {
-        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+
+    .bottom {
+        grid-template-columns: 1fr;
     }
 
     .bottom .comment,
