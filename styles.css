@@ -231,3 +231,22 @@ h3 {
     max-width: 100%;
     box-sizing: border-box;
 }
+
+.comments-section {
+    margin-top: 20px;
+}
+
+#comments-list>div {
+    background-color: #f8e6cc;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+#comments-list strong {
+    color: #7b4a35;
+}
+
+#comments-list p {
+    margin-bottom: 0;
+}
