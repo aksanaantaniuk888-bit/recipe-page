@@ -13,4 +13,6 @@ postButton.addEventListener("click", () => {
 
     newComment.append(author, message);
     commentsList.prepend(newComment);
+    document.getElementById("visitor-name").value = "";
+    document.getElementById("comment").value = "";
 });
