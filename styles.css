@@ -250,3 +250,17 @@ h3 {
 #comments-list p {
     margin-bottom: 0;
 }
+
+.emoji-buttons {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.emoji-buttons button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
