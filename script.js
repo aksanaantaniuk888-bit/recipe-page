@@ -15,4 +15,11 @@ postButton.addEventListener("click", () => {
     commentsList.prepend(newComment);
     document.getElementById("visitor-name").value = "";
     document.getElementById("comment").value = "";
-});
+}); const emojiButtons = document.getElementById("emoji-buttons").getElementsByTagName("button");
+const commentInput = document.getElementById("comment");
+
+for (const emojiButton of emojiButtons) {
+    emojiButton.addEventListener("click", () => {
+        commentInput.value += emojiButton.textContent;
+    });
+}
