@@ -211,3 +211,27 @@ h3 {
     max-width: 100%;
     box-sizing: border-box;
 }
+
+.recipe-carousel {
+    background-color: #FFF3E0;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#carousel-media img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.carousel-buttons button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
