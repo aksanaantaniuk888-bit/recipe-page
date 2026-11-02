@@ -212,26 +212,29 @@ h3 {
     box-sizing: border-box;
 }
 
-.recipe-carousel {
-    background-color: #FFF3E0;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 20px;
+.top {
+    position: relative;
 }
 
-#carousel-media img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.carousel-buttons {
+.carousel-dots {
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+    gap: 8px;
+    z-index: 2;
 }
 
-.carousel-buttons button {
-    padding: 8px 16px;
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
+}
+
+.carousel-dot.active {
+    background-color: white;
 }
