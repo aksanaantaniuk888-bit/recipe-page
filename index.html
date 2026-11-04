@@ -189,30 +189,31 @@
                 <!--  <a> href="link" </a> // CLICKABLE link , below the link text that you will see instead of web adress-->
             </div>
             <div class="comment">
-                <h2> Leave a Comment </h2>
-
                 <form> <!--  form looks like comment box -->
-                    <div>
-                        <label for="visitor-name"> Your name </label>
-                        <input type="text" id="visitor-name" name="visito-name" placeholder="Enter your name">
-                    </div>
-
-                    <div> <label for="comment"> Your Comment: </label>
-                        <!-- label - create text  for the wording box(for comment box)-->
-                        <textarea id="comment" name="comment" rows="4" cols="40"> </textarea>
-                        <!-- textarea - box fot user text/ -->
-                        <div class="emoji-buttons" id="emoji-buttons">
-                            <button type="button">🍝</button>
-                            <button type="button">🍅</button>
-                            <button type="button">🧀</button>
-                            <button type="button">🌿</button>
-                            <button type="button">😋</button>
-                            <button type="button">❤️</button>
-                            <button type="button">🥰</button>
-                            <button type="button">👍</button>
+                    <fieldset>
+                        <legend> Leave a Comment </legend>
+                        <div>
+                            <label for="visitor-name"> Your name </label>
+                            <input type="text" id="visitor-name" name="visito-name" placeholder="Enter your name">
                         </div>
-                    </div>
-                    <button type="button" id="post-comment"> Post Comment</button>
+
+                        <div> <label for="comment"> Your Comment: </label>
+                            <!-- label - create text  for the wording box(for comment box)-->
+                            <textarea id="comment" name="comment" rows="4" cols="40"> </textarea>
+                            <!-- textarea - box fot user text/ -->
+                            <div class="emoji-buttons" id="emoji-buttons">
+                                <button type="button">🍝</button>
+                                <button type="button">🍅</button>
+                                <button type="button">🧀</button>
+                                <button type="button">🌿</button>
+                                <button type="button">😋</button>
+                                <button type="button">❤️</button>
+                                <button type="button">🥰</button>
+                                <button type="button">👍</button>
+                            </div>
+                        </div>
+                        <button type="button" id="post-comment"> Post Comment</button>
+                    </fieldset>
                 </form>
                 <div class="comments-section">
                     <h3>Comments</h3>
