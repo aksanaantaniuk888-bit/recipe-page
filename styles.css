@@ -5,6 +5,7 @@ p {
 body {
     background-color: #DEAB7F;
     font-family: "Open Sans", sans-serif;
+
 }
 
 p {
@@ -171,7 +172,7 @@ h3 {
     /* Allows the image to be placed in a specific position. */
     right: -10px;
     bottom: -10px;
-    width: 110px;
+    width: 200px;
 }
 
 @keyframes basilWiggle {
@@ -245,6 +246,30 @@ h3 {
     max-width: 80%;
     height: auto;
 }
+
+
+/* Sleeping cat breathing animation */
+.cat-area .cat-decor {
+    transform-origin: center bottom;
+    animation: catBreathing 3.5s ease-in-out infinite;
+}
+
+@keyframes catBreathing {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02, 1.04);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/**/
+
 
 @media (max-width: 767px) {
     .bottom {
