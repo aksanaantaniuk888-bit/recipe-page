@@ -5,7 +5,7 @@ p {
 body {
     background-color: #DEAB7F;
     font-family: "Open Sans", sans-serif;
-
+    font-size: 20px;
 }
 
 p {
@@ -28,6 +28,7 @@ h3 {
 
     float: left;
     margin: 1%;
+    position: relative;
 }
 
 .right {
@@ -168,11 +169,13 @@ h3 {
 }
 
 .basil-decor {
-    position: absolute;
+
     /* Allows the image to be placed in a specific position. */
-    right: -10px;
-    bottom: -10px;
     width: 200px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
 }
 
 @keyframes basilWiggle {
