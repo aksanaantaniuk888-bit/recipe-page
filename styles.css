@@ -205,6 +205,14 @@ h3 {
     animation: basilWiggle 0.5s ease-in-out;
 }
 
+@media (max-width: 767px) {
+    .left .basil-decor {
+        position: static;
+        display: block;
+        margin: 15px 0 0 auto;
+    }
+}
+
 .cat-decor {
     position: absolute;
     right: -20px;
